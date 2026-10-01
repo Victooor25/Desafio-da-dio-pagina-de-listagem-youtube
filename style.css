@@ -1,0 +1,598 @@
+body{
+
+    background-color: white;
+
+    font-family: roboto, sans-serif;
+
+}
+
+#menu {
+
+    display: flex;
+
+    align-items: center;
+
+
+
+}
+
+#navbar{
+
+    display: flex;
+
+    align-items: center;
+
+    height: 800px;
+
+    width: 218px;
+
+}
+
+nav a{
+
+    display: flex;
+
+    align-items: center;
+
+    text-decoration: none;
+
+    gap: 16px;
+
+
+
+}
+
+ul{
+
+    list-style: none;
+
+    font-size: 14px;
+
+}
+
+a{
+
+    color: #000000;
+
+    text-decoration: none;
+
+    margin-top: 18px;
+
+    padding-top: 16px;
+
+}
+
+.menu{
+
+    width: 24px;
+
+    height: 24px;
+
+    margin-top: 16px;
+
+    margin-left: 40px;
+
+}
+
+.youtube{
+
+   width: 90px;
+
+   height: 20px;
+
+   margin-top: 18px;
+
+   margin-left: 80px;
+
+}
+
+.pesquisar{
+
+    width: 348px;
+
+    height: 40px;
+
+    margin-top: 8px;
+
+    margin-left: 526px;
+
+    border: 1px solid #CCCCCC;
+
+
+
+}
+
+.video{
+
+    width: 24px;
+
+    height: 24px;
+
+    margin-top: 18px;
+
+    margin-left: auto;
+
+    padding-right: 16px;
+
+}
+
+.sino{
+
+    width: 24px;
+
+    height: 24px;
+
+    margin-top: 18px;
+
+    margin-left: 16px;
+
+    padding-right: 16px;
+
+}
+
+.perfil{
+
+    width: 34px;
+
+    height: 34px;
+
+    margin-top: 12px;
+
+    margin-left: 16px;
+
+    padding-right: 16px;
+
+}
+
+.home{
+
+    width: 24px;
+
+    height: 24px;
+
+    margin-top: 18px;
+
+    margin-left: 2px;
+
+}
+
+.explorar{
+
+    width: 24px;
+
+    height: 24px;
+
+    margin-top: 18px;
+
+    margin-left: 2px;
+
+}
+
+.inscricoes{
+
+    width: 24px;
+
+    height: 24px;
+
+    margin-top: 18px;
+
+    margin-left: 2px;
+
+}
+
+.music{
+
+    width: 24px;
+
+    height: 24px;
+
+    margin-top: 18px;
+
+    margin-left: 2px;
+
+}
+
+.like{
+
+    width: 24px;
+
+    height: 24px;
+
+    margin-top: 18px;
+
+    margin-left: 2px;
+
+}
+
+.watch-later{
+
+    width: 24px;
+
+    height: 24px;
+
+    margin-top: 18px;
+
+    margin-left: 2px;
+
+}
+
+.downloads{
+
+    width: 24px;
+
+    height: 24px;
+
+    margin-top: 18px;
+
+    margin-left: 2px;
+
+}
+
+.movies{
+
+    width: 24px;
+
+    height: 24px;
+
+    margin-top: 18px;
+
+    margin-left: 2px;
+
+}
+
+.learn{
+
+    width: 24px;
+
+    height: 24px;
+
+    margin-top: 18px;
+
+    margin-left: 2px;
+
+}
+
+.sports{
+
+    width: 24px;
+
+    height: 24px;
+
+    margin-top: 18px;
+
+    margin-left: 2px;
+
+}
+
+nav a img {
+
+    transform: translateY(-9px);
+
+}
+
+main{ 
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 16px;
+
+    margin-top: 16px;
+
+    margin-left: 16px;
+
+}
+
+#conteudo {
+
+    display: flex;
+
+}
+
+.video-1{
+
+    width: 250px;
+
+    height: 140px;
+
+    margin-top: 80px;
+
+    margin-left: 246px;
+
+    margin-bottom: 16px;
+
+}
+
+.video-2{
+
+    width: 250px;
+
+    height: 140px;
+
+    margin-top: 80px;
+
+    margin-bottom: 16px;
+
+    padding-left: 16px;
+
+}
+
+.video-3{
+
+    width: 250px;
+
+    height: 140px;
+
+    margin-top: 80px;
+
+    margin-bottom: 16px;
+
+    padding-left: 16px;
+
+}
+
+.video-4{
+
+    width: 250px;
+
+    height: 140px;
+
+    margin-top: 80px;
+
+    margin-bottom: 16px;
+
+    padding-left: 16px;
+
+}
+
+.video-5{
+
+    width: 250px;
+
+    height: 140px;
+
+    margin-top: 80px;
+
+    margin-bottom: 16px;
+
+    padding-left: 16px;
+
+}
+
+.video-6{
+
+    width: 250px;
+
+    height: 140px;
+
+    margin-top: 80px;
+
+    margin-left: 246px;
+
+    margin-bottom: 16px;
+
+}
+
+.video-7{
+
+    width: 250px;
+
+    height: 140px;
+
+    margin-top: 80px;
+
+    margin-bottom: 16px;
+
+    padding-left: 16px;
+
+}
+
+.video-8{
+
+    width: 250px;
+
+    height: 140px;
+
+    margin-top: 80px;
+
+    margin-bottom: 16px;
+
+    padding-left: 16px;
+
+}
+
+.video-9{
+
+    width: 250px;
+
+    height: 140px;
+
+    margin-top: 80px;
+
+    margin-bottom: 16px;
+
+    padding-left: 16px;
+
+}
+
+.video-10{
+
+    width: 250px;
+
+    height: 140px;
+
+    margin-top: 80px;
+
+    margin-bottom: 16px;
+
+    padding-left: 16px;
+
+}
+
+.video-11{
+
+    width: 250px;
+
+    height: 140px;
+
+    margin-top: 80px;
+
+    margin-left: 246px;
+
+    margin-bottom: 16px;
+
+}
+
+.video-12{
+
+    width: 250px;
+
+    height: 140px;
+
+    margin-top: 80px;
+
+    margin-bottom: 16px;
+
+    padding-left: 16px;
+
+}
+
+
+/* ADICIONADO PARA AS LOGOS DOS CANAIS */
+
+.card {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.logo-canal {
+
+    width: 36px;
+
+    height: 36px;
+
+    border-radius: 50%;
+
+    margin-top: 8px;
+
+}
+
+
+/* MANTENDO O POSICIONAMENTO QUE VOCÊ JÁ TINHA */
+
+.card-1 {
+
+    margin-top: 80px;
+
+    margin-left: 246px;
+
+    margin-bottom: 16px;
+
+}
+
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-7,
+.card-8,
+.card-9,
+.card-10,
+.card-12 {
+
+    margin-top: 80px;
+
+    margin-bottom: 16px;
+
+    padding-left: 16px;
+
+}
+
+.card-6,
+.card-11 {
+
+    margin-top: 80px;
+
+    margin-left: 246px;
+
+    margin-bottom: 16px;
+
+}
+
+
+/* RETIRANDO APENAS O ESPAÇAMENTO DAS IMAGENS,
+
+   POIS ELE AGORA FICA NO CARD */
+
+.card .video-1,
+.card .video-6,
+.card .video-11 {
+
+    margin-top: 0;
+
+    margin-left: 0;
+
+    margin-bottom: 0;
+
+}
+
+.card .video-2,
+.card .video-3,
+.card .video-4,
+.card .video-5,
+.card .video-7,
+.card .video-8,
+.card .video-9,
+.card .video-10,
+.card .video-12 {
+
+    margin-top: 0;
+
+    margin-bottom: 0;
+
+    padding-left: 0;
+
+}
+
+
+/* ALINHAMENTO DAS INFORMAÇÕES DOS VÍDEOS */
+
+.card h3 {
+
+    position: relative;
+
+    top: -36px;
+
+    left: 44px;
+
+    width: 200px;
+
+    margin: 0;
+
+    font-size: 14px;
+
+    line-height: 18px;
+
+}
+
+.card p {
+
+    position: relative;
+
+    top: -36px;
+
+    left: 44px;
+
+    width: 200px;
+
+    margin: 0;
+
+    font-size: 12px;
+
+    line-height: 18px;
+
+}
